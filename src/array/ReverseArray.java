@@ -1,7 +1,5 @@
 package array;
 
-import static array.ArrayUtil.printArray;
-
 public class ReverseArray {
 
     public static void reverseArray(int[] numbers, int start, int end) {
@@ -12,6 +10,13 @@ public class ReverseArray {
             start++;
             end--;
         }
+    }
+
+    public static void printArray(int[] arr) {
+        for (int j : arr) {
+            System.out.print(j + " ");
+        }
+        System.out.println();
     }
 
     public static void main() {

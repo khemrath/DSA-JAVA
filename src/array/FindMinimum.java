@@ -1,11 +1,15 @@
 package array;
 
-import static array.ArrayUtil.printArray;
-
 public class FindMinimum {
+    public static void printArray(int[] arr) {
+        for (int j : arr) {
+            System.out.print(j + " ");
+        }
+        System.out.println();
+    }
 
     public static int findMinimum(int[] arr) {
-        if (arr == null || arr.length == 0) {
+        if(arr == null || arr.length == 0) {
             throw new IllegalArgumentException("Invalid Input");
         }
         int min = arr[0];
@@ -20,7 +24,7 @@ public class FindMinimum {
     public static void main() {
         int[] numbers = {3, 2, 4, 7, 10, 6, 5}; // 3, 7, 5
         printArray(numbers);
-        int min = findMinimum(numbers);
+        int min = findMinimum(null);
         System.out.println(min);
     }
 }
