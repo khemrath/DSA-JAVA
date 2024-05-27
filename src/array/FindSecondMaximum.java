@@ -1,12 +1,8 @@
 package array;
 
+import static array.ArrayUtil.printArray;
+
 public class FindSecondMaximum {
-    public static void printArray(int[] arr) {
-        for (int j : arr) {
-            System.out.print(j + " ");
-        }
-        System.out.println();
-    }
 
     public static int findSecondMaximum(int[] arr) {
         if (arr == null || arr.length == 0) {

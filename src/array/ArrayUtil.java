@@ -1,10 +1,9 @@
 package array;
 
 public class ArrayUtil {
-    public void printArray(int[] arr) {
-        int n = arr.length;
-        for (int i = 0; i < n; i++) {
-            System.out.print(arr[i] + " ");
+    public static void printArray(int[] arr) {
+        for (int j : arr) {
+            System.out.print(j + " ");
         }
         System.out.println();
     }

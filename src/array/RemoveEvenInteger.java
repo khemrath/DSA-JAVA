@@ -1,13 +1,8 @@
 package array;
 
-public class RemoveEvenInteger {
-    public static void printArray(int[] arr) {
-        for (int j : arr) {
-            System.out.print(j + " ");
-        }
-        System.out.println();
-    }
+import static array.ArrayUtil.printArray;
 
+public class RemoveEvenInteger {
     public static int[] removeEven(int[] arr) {
         int oddCount = 0;
         for (int j : arr) {
@@ -17,9 +12,9 @@ public class RemoveEvenInteger {
         }
         int[] result = new int[oddCount];
         int idx = 0;
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] % 2 != 0) {
-                result[idx] = arr[i];
+        for (int j : arr) {
+            if (j % 2 != 0) {
+                result[idx] = j;
                 idx++;
             }
         }
