@@ -4,7 +4,7 @@ import static array.ArrayUtil.printArray;
 
 public class CheckIfPalindrome {
 
-    public static boolean checkIfPalindrome(String word) {
+    public static boolean isPalindrome(String word) {
         char[] wordArray = word.toCharArray();
         int start = 0;
         int end = wordArray.length - 1;
@@ -21,7 +21,7 @@ public class CheckIfPalindrome {
     public static void main() {
         String word = "madam";
         System.out.println(word);
-        boolean isPalindrome = checkIfPalindrome(word);
+        boolean isPalindrome = isPalindrome(word);
         System.out.println(isPalindrome);
     }
 
