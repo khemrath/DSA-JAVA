@@ -51,58 +51,13 @@ public class SingleLinkedList {
         current.next = newNode;
     }
 
-    public void insertToGivenPosition(
-            int value,
-            int position
-    ) {
-        ListNode node = new ListNode(value);
-        if (position == 1) {
-            node.next = head;
-            head = node;
-        } else {
-            ListNode previous = head;
-            int count = 1;
-            while (count < position - 1) {
-                previous = previous.next;
-                count++;
-            }
-            ListNode current = previous.next;
-            node.next = current;
-            previous.next = node;
-        }
-    }
-
-    public ListNode deleteFirst() {
-        if (head == null) {
-            return null;
-        }
-        ListNode temp = head;
-        head = head.next;
-        temp.next = null;
-        return temp;
-    }
-
-    public ListNode deleteLast() {
-        if (head == null) {
-            return null;
-        }
-        ListNode current = head;
-        ListNode previous = null;
-        while (current.next != null) {
-            previous = current;
-            current = current.next;
-        }
-        previous.next = null;
-        return current;
-    }
-
     public static void main() {
         SingleLinkedList sll = new SingleLinkedList();
 //        sll.head = new ListNode(10);
 //        ListNode second = new ListNode(1);
 //        ListNode third = new ListNode(8);
 //        ListNode fourth = new ListNode(11);
-//?
+//
 //        // Now we will connect them together to form a chain
 //        sll.head.next = second; // 10 --> 1
 //        second.next = third; // 10 --> 1 --> 8
@@ -114,20 +69,10 @@ public class SingleLinkedList {
 
         sll.insertLast(20);
 
-        sll.insertToGivenPosition(7, 3);
-
-        sll.display();
-
-//        ListNode deletedNote = sll.deleteFirst();
-//        System.out.println("Deleted first node value: " + deletedNote.data);
-
-        ListNode deletedNote = sll.deleteLast();
-        System.out.println("Deleted last node value: " + deletedNote.data);
-
         // Display linked list
         sll.display();
 
-//        int length = sll.length();
-//        System.out.println("Linked list length: " + length);
+        int length = sll.length();
+        System.out.println("Linked list length: " + length);
     }
 }

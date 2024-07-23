@@ -1,15 +1,13 @@
 package array;
 
-import static array.ArrayUtil.printArray;
-
 public class CheckIfPalindrome {
 
     public static boolean isPalindrome(String word) {
         char[] wordArray = word.toCharArray();
         int start = 0;
         int end = wordArray.length - 1;
-        while(start < end) {
-            if(wordArray[start] != wordArray[end]) {
+        while (start < end) {
+            if (wordArray[start] != wordArray[end]) {
                 return false;
             }
             start++;
