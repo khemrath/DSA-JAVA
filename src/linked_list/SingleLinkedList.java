@@ -60,15 +60,15 @@ public class SingleLinkedList {
             node.next = head;
             head = node;
         } else {
-            ListNode prev = head;
+            ListNode previous = head;
             int count = 1;
             while (count < position - 1) {
-                prev = prev.next;
+                previous = previous.next;
                 count++;
             }
-            ListNode current = prev.next;
+            ListNode current = previous.next;
             node.next = current;
-            prev.next = node;
+            previous.next = node;
         }
     }
 
@@ -80,6 +80,20 @@ public class SingleLinkedList {
         head = head.next;
         temp.next = null;
         return temp;
+    }
+
+    public ListNode deleteLast() {
+        if (head == null) {
+            return null;
+        }
+        ListNode current = head;
+        ListNode previous = null;
+        while (current.next != null) {
+            previous = current;
+            current = current.next;
+        }
+        previous.next = null;
+        return current;
     }
 
     public static void main() {
@@ -104,13 +118,16 @@ public class SingleLinkedList {
 
         sll.display();
 
-        ListNode deletedNote = sll.deleteFirst();
-        System.out.println("Deleted first node value: " + deletedNote.data);
+//        ListNode deletedNote = sll.deleteFirst();
+//        System.out.println("Deleted first node value: " + deletedNote.data);
+
+        ListNode deletedNote = sll.deleteLast();
+        System.out.println("Deleted last node value: " + deletedNote.data);
 
         // Display linked list
         sll.display();
 
-        int length = sll.length();
-        System.out.println("Linked list length: " + length);
+//        int length = sll.length();
+//        System.out.println("Linked list length: " + length);
     }
 }
