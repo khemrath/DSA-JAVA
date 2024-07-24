@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="313688ea-6cd4-42c8-9365-12e5239f0b2c" name="Changes" comment="DSA JAVA:&#10;- Linked list&#10; + delete a node at the last position of a single linked list" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;khemrath&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/khemrath/DSA-JAVA.git&quot;,
+    &quot;accountId&quot;: &quot;f0a2a083-2485-46d0-a4a8-5088507ea39c&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2fu4nNSOduzVBwzw4vYCaXbGz2O" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArrayUtil.executor": "Run",
+    "Application.CheckIfPalindrome.executor": "Run",
+    "Application.FindMinimum.executor": "Run",
+    "Application.FindMissingNumber.executor": "Run",
+    "Application.FindSecondMaximum.executor": "Run",
+    "Application.MoveZeroToEnd.executor": "Run",
+    "Application.RemoveEvenInteger.executor": "Run",
+    "Application.ResizeArray.executor": "Run",
+    "Application.ReverseArray.executor": "Run",
+    "Application.SingleLinkedList.executor": "Run",
+    "Application.TimeComplexityDemo.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Coding\courses\Data structure and algorithm\data_struture_and_algorithm\src\1_time_complexity.java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="time_complexity" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SingleLinkedList">
+    <configuration name="CheckIfPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.CheckIfPalindrome" />
+      <module name="data_struture_and_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindMissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.FindMissingNumber" />
+      <module name="data_struture_and_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoveZeroToEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.MoveZeroToEnd" />
+      <module name="data_struture_and_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResizeArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ResizeArray" />
+      <module name="data_struture_and_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingleLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linked_list.SingleLinkedList" />
+      <module name="data_struture_and_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linked_list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SingleLinkedList" />
+        <item itemvalue="Application.CheckIfPalindrome" />
+        <item itemvalue="Application.FindMissingNumber" />
+        <item itemvalue="Application.ResizeArray" />
+        <item itemvalue="Application.MoveZeroToEnd" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="313688ea-6cd4-42c8-9365-12e5239f0b2c" name="Changes" comment="" />
+      <created>1714637800278</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714637800278</updated>
+    </task>
+    <task id="LOCAL-00001" summary="DSA JAVA:&#10;- Array&#10; + Remove even integer&#10; + Reverse array&#10; + Find minimum&#10; + Find second minimum">
+      <option name="closed" value="true" />
+      <created>1716818963136</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716818963136</updated>
+    </task>
+    <task id="LOCAL-00002" summary="DSA JAVA:&#10;- Array&#10; + Move zero to end">
+      <option name="closed" value="true" />
+      <created>1716823935542</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716823935542</updated>
+    </task>
+    <task id="LOCAL-00003" summary="DSA JAVA:&#10;- Array&#10; + Resize array">
+      <option name="closed" value="true" />
+      <created>1717000990065</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717000990065</updated>
+    </task>
+    <task id="LOCAL-00004" summary="DSA JAVA:&#10;- Array&#10; + Find missing number">
+      <option name="closed" value="true" />
+      <created>1721552710502</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721552710502</updated>
+    </task>
+    <task id="LOCAL-00005" summary="DSA JAVA:&#10;- Array&#10; + Check if word is palindrome">
+      <option name="closed" value="true" />
+      <created>1721554815745</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721554815745</updated>
+    </task>
+    <task id="LOCAL-00006" summary="DSA JAVA:&#10;- Array&#10; + Check if word is palindrome">
+      <option name="closed" value="true" />
+      <created>1721554959940</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1721554959940</updated>
+    </task>
+    <task id="LOCAL-00007" summary="DSA JAVA:&#10;- Linked list&#10; + Create single linked list&#10; + display single linked list&#10; + get length of a single linked list&#10; + insert a node at the first of a single linked list&#10; + insert a node at the last of a single linked list">
+      <option name="closed" value="true" />
+      <created>1721753102316</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1721753102316</updated>
+    </task>
+    <task id="LOCAL-00008" summary="DSA JAVA:&#10;- Linked list&#10; + insert a node at the exact position of a single linked list">
+      <option name="closed" value="true" />
+      <created>1721831458517</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1721831458518</updated>
+    </task>
+    <task id="LOCAL-00009" summary="DSA JAVA:&#10;- Linked list&#10; + delete a node at the first position of a single linked list">
+      <option name="closed" value="true" />
+      <created>1721832174505</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1721832174505</updated>
+    </task>
+    <task id="LOCAL-00010" summary="DSA JAVA:&#10;- Linked list&#10; + delete a node at the last position of a single linked list">
+      <option name="closed" value="true" />
+      <created>1721833594217</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1721833594217</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="DSA JAVA:&#10;- Array&#10; + Remove even integer&#10; + Reverse array&#10; + Find minimum&#10; + Find second minimum" />
+    <MESSAGE value="DSA JAVA:&#10;- Array&#10; + Move zero to end" />
+    <MESSAGE value="DSA JAVA:&#10;- Array&#10; + Resize array" />
+    <MESSAGE value="DSA JAVA:&#10;- Array&#10; + Find missing number" />
+    <MESSAGE value="DSA JAVA:&#10;- Array&#10; + Check if word is palindrome" />
+    <MESSAGE value="DSA JAVA:&#10;- Linked list&#10; + Create single linked list&#10; + display single linked list&#10; + get length of a single linked list&#10; + insert a node at the first of a single linked list&#10; + insert a node at the last of a single linked list" />
+    <MESSAGE value="DSA JAVA:&#10;- Linked list&#10; + insert a node at the exact position of a single linked list" />
+    <MESSAGE value="DSA JAVA:&#10;- Linked list&#10; + delete a node at the first position of a single linked list" />
+    <MESSAGE value="DSA JAVA:&#10;- Linked list&#10; + delete a node at the last position of a single linked list" />
+    <option name="LAST_COMMIT_MESSAGE" value="DSA JAVA:&#10;- Linked list&#10; + delete a node at the last position of a single linked list" />
+  </component>
+</project>
