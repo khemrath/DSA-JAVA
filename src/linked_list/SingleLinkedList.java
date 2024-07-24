@@ -96,6 +96,25 @@ public class SingleLinkedList {
         return current;
     }
 
+    public ListNode deleteAtAGivenPosition(int position) {
+        if (position == 1) {
+            ListNode temp = head;
+            head = head.next;
+            temp.next = null;
+            return temp;
+        } else {
+            ListNode previous = head;
+            int count = 1;
+            while (count < position - 1) {
+                previous = previous.next;
+                count++;
+            }
+            ListNode current = previous.next;
+            previous.next = current.next;
+            return current;
+        }
+    }
+
     public static void main() {
         SingleLinkedList sll = new SingleLinkedList();
 //        sll.head = new ListNode(10);
@@ -122,8 +141,11 @@ public class SingleLinkedList {
 //        ListNode deletedNote = sll.deleteFirst();
 //        System.out.println("Deleted first node value: " + deletedNote.data);
 
-        ListNode deletedNote = sll.deleteLast();
-        System.out.println("Deleted last node value: " + deletedNote.data);
+//        ListNode deletedNote = sll.deleteLast();
+//        System.out.println("Deleted last node value: " + deletedNote.data);
+
+        ListNode deletedNote = sll.deleteAtAGivenPosition(3);
+        System.out.println("Deleted node value: " + deletedNote.data);
 
         sll.display();
 

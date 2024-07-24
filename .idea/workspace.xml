@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="313688ea-6cd4-42c8-9365-12e5239f0b2c" name="Changes" comment="DSA JAVA:&#10;- Linked list&#10; + delete a node at the last position of a single linked list">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struture_and_algorithm/linked_list/SingleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struture_and_algorithm/linked_list/SingleLinkedList.class" afterDir="false" />
+    <list default="true" id="313688ea-6cd4-42c8-9365-12e5239f0b2c" name="Changes" comment="DSA JAVA:&#10;- Linked list&#10; + update on delete a node at the last position of a single linked list">
       <change beforePath="$PROJECT_DIR$/src/linked_list/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linked_list/SingleLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -245,7 +243,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721833594217</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="DSA JAVA:&#10;- Linked list&#10; + update on delete a node at the last position of a single linked list">
+      <option name="closed" value="true" />
+      <created>1721837406398</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1721837406398</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -258,6 +264,7 @@
     <MESSAGE value="DSA JAVA:&#10;- Linked list&#10; + insert a node at the exact position of a single linked list" />
     <MESSAGE value="DSA JAVA:&#10;- Linked list&#10; + delete a node at the first position of a single linked list" />
     <MESSAGE value="DSA JAVA:&#10;- Linked list&#10; + delete a node at the last position of a single linked list" />
-    <option name="LAST_COMMIT_MESSAGE" value="DSA JAVA:&#10;- Linked list&#10; + delete a node at the last position of a single linked list" />
+    <MESSAGE value="DSA JAVA:&#10;- Linked list&#10; + update on delete a node at the last position of a single linked list" />
+    <option name="LAST_COMMIT_MESSAGE" value="DSA JAVA:&#10;- Linked list&#10; + update on delete a node at the last position of a single linked list" />
   </component>
 </project>
