@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="313688ea-6cd4-42c8-9365-12e5239f0b2c" name="Changes" comment="DSA JAVA:&#10;- Linked list&#10; + delete a node at the last position of a single linked list" />
+    <list default="true" id="313688ea-6cd4-42c8-9365-12e5239f0b2c" name="Changes" comment="DSA JAVA:&#10;- Linked list&#10; + delete a node at the last position of a single linked list">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struture_and_algorithm/linked_list/SingleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struture_and_algorithm/linked_list/SingleLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linked_list/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linked_list/SingleLinkedList.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,6 +67,7 @@
     "Application.SingleLinkedList.executor": "Run",
     "Application.TimeComplexityDemo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
@@ -144,10 +149,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.SingleLinkedList" />
-        <item itemvalue="Application.CheckIfPalindrome" />
-        <item itemvalue="Application.FindMissingNumber" />
         <item itemvalue="Application.ResizeArray" />
         <item itemvalue="Application.MoveZeroToEnd" />
+        <item itemvalue="Application.FindMissingNumber" />
+        <item itemvalue="Application.CheckIfPalindrome" />
       </list>
     </recent_temporary>
   </component>

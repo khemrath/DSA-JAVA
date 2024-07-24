@@ -83,7 +83,7 @@ public class SingleLinkedList {
     }
 
     public ListNode deleteLast() {
-        if (head == null) {
+        if (head == null || head.next == null) {
             return null;
         }
         ListNode current = head;
@@ -116,6 +116,7 @@ public class SingleLinkedList {
 
         sll.insertToGivenPosition(7, 3);
 
+        // Display linked list
         sll.display();
 
 //        ListNode deletedNote = sll.deleteFirst();
@@ -124,7 +125,6 @@ public class SingleLinkedList {
         ListNode deletedNote = sll.deleteLast();
         System.out.println("Deleted last node value: " + deletedNote.data);
 
-        // Display linked list
         sll.display();
 
 //        int length = sll.length();
