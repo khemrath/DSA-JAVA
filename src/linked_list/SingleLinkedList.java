@@ -51,13 +51,34 @@ public class SingleLinkedList {
         current.next = newNode;
     }
 
+    public void insertToGivenPosition(
+            int value,
+            int position
+    ) {
+        ListNode node = new ListNode(value);
+        if(position == 1) {
+            node.next = head;
+            head = node;
+        } else {
+            ListNode prev = head;
+            int count = 1;
+            while(count < position - 1) {
+                prev = prev.next;
+                count++;
+            }
+            ListNode current = prev.next;
+            node.next = current;
+            prev.next = node;
+        }
+    }
+
     public static void main() {
         SingleLinkedList sll = new SingleLinkedList();
 //        sll.head = new ListNode(10);
 //        ListNode second = new ListNode(1);
 //        ListNode third = new ListNode(8);
 //        ListNode fourth = new ListNode(11);
-//
+//?
 //        // Now we will connect them together to form a chain
 //        sll.head.next = second; // 10 --> 1
 //        second.next = third; // 10 --> 1 --> 8
@@ -69,10 +90,11 @@ public class SingleLinkedList {
 
         sll.insertLast(20);
 
+        sll.insertToGivenPosition(7, 3);
+
         // Display linked list
         sll.display();
 
         int length = sll.length();
-        System.out.println("Linked list length: " + length);
-    }
+        System.out.println("Linked list length: " + length);}
 }
