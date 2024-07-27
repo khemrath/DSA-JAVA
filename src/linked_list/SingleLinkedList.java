@@ -115,6 +115,19 @@ public class SingleLinkedList {
         }
     }
 
+    public boolean find(
+            int searchKey
+    ) {
+        ListNode current = head;
+       while(current != null) {
+           if(current.data == searchKey) {
+               return true;
+           }
+           current = current.next;
+       }
+       return false;
+    }
+
     public static void main() {
         SingleLinkedList sll = new SingleLinkedList();
 //        sll.head = new ListNode(10);
@@ -146,6 +159,13 @@ public class SingleLinkedList {
 
         ListNode deletedNote = sll.deleteAtAGivenPosition(3);
         System.out.println("Deleted node value: " + deletedNote.data);
+
+
+        if(sll.find(1)) {
+            System.out.println("Search key found !!!");
+        } else {
+            System.out.println("Search key not found !!!");
+        }
 
         sll.display();
 
